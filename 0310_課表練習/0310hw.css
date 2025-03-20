@@ -1,0 +1,55 @@
+table,th,td{
+    border: 2px #000000;
+    border-style: solid;
+    border-radius: 1px;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: center;
+}
+
+.teacher{
+    width: 100px; 
+    text-wrap: nowrap;
+}
+
+.box_width{
+    width: 75px;
+}
+
+.time_period{
+    width: 50px;
+}
+.time_week{
+    width: 100px;
+}
+
+.week_1{
+height: 100px;
+}
+
+.section{
+width: 50px;
+}
+
+.text-align{
+    text-align: justify;
+}
+
+/* .slash{
+    position:relative;
+    width:100px;
+    height:40px;
+    box-sizing:border-box;
+    line-height:120px;
+    background: linear-gradient(135deg, transparent 49.5%, #212121 49.5%, transparent 50.5%, transparent 50.5%);
+}
+
+.slash01{
+  position: absolute;
+  top: -50px;
+}
+.slash02{
+  position: absolute;
+  top: -25px;
+  left: 50px;
+} */
