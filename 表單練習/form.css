@@ -1,0 +1,135 @@
+body{
+    background-color: #E6E6FA;
+}
+.title-1{
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 8px 100px 5px 100px;
+    padding: 15px 20px;
+    border-top: 8px solid rgb(111, 74, 153);
+    margin-inline: auto;
+}
+a{
+    color: rgb(64, 110, 196);
+}
+.red-star{
+    color: rgb(218, 36, 36);
+}
+hr{
+    color: rgb(189, 189, 189);
+    margin: 10px 0;
+    border: 0;
+    border-top: 1.5px solid ;
+}
+.title_word{
+    font-size: 30px;
+}
+.MustWrite{
+    color: rgb(218, 36, 36);
+}
+
+.div_presonal{
+    border: 1px solid rgb(214, 214, 214);
+    background-color: rgb(255, 255, 255);
+    margin: 8px 100px 5px 100px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 600px;
+    margin-inline: auto;
+}
+.div_radio{
+    width: 600px;
+    border: 1px solid rgb(214, 214, 214);
+    background-color: rgb(255, 255, 255);
+    margin: 8px 100px 5px 100px;
+    border-radius: 10px;
+    padding: 15px 20px ;
+    margin-inline: auto;
+}
+
+input[type="radio"] {
+    margin-bottom: 15px;
+}
+.div_form{
+    width: 600px;
+    border: 1px solid rgb(214, 214, 214);
+    background-color: rgb(255, 255, 255);
+    margin: 8px 100px 5px 100px;
+    border-radius: 10px;
+    padding: 15px 20px ;
+    margin-inline: auto;
+}
+.div_checkbox{
+    width: 600px;
+    border: 2px solid rgb(214, 214, 214);
+    background-color: rgb(255, 255, 255);
+    margin: 8px 100px 5px 100px;
+    border-radius: 10px;
+    padding: 15px 20px ;
+    cursor: pointer;
+    margin-inline: auto;
+}
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+input{
+    border-bottom: 1px solid rgb(214, 214, 214);;
+}
+.date_1{
+    color: rgb(93, 94, 95);
+    margin-inline: auto;
+}
+.button_all{
+    width: 600px;
+    margin-top: 10px ;
+    margin-inline: auto;
+}
+.submit_bt{
+    border: 2px ;
+    color: white;
+    background-color: rgb(61, 40, 138);
+    border-radius: 5px;
+    padding: 8px;
+    width: 85px;
+    text-align:center;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.reset_bt{  
+    color: rgb(85, 64, 160);
+}
+.buttom_text{
+    padding: 8px;
+    margin-inline: auto;
+    text-align:center;
+    color: gray;
+}
+.google_form{
+    font-size: 32px;
+}
+.NotToTrans{
+    margin-left: -400px;  
+}
+select{
+    border: 2px solid rgb(133, 133, 133);
+    height: 40px;
+    width: 100px;
+    margin-top: 5px;
+}
+optgroup.continents{
+    color: rgb(145, 145, 145);
+}
+option{
+    color: black;
+}
+.Report_a{
+    color:gray ;
+    text-decoration: underline;
+}
+

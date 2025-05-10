@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_practice</title>
+    <link rel = "stylesheet" href="./reset.css">
+    <link rel = "stylesheet" href="./form.css">
+</head>
+<body>
+    <form>
+        <div class="title-1">
+            <h1 class="title_word"><b>F2E02 表單練習</b></h1>
+            <small>僅供新尖兵 F2E02 表單切版練習作業</small>
+            <hr>
+            <a href="https://accounts.google.com/InteractiveLogin/signinchooser?contin
+            ue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSeRMAUDqY6GEPiHotfXZQLvGOQgB1nLfxA_TW-uwlC5vb8CWQ%2Fviewform
+            %3Fentry.1702755171%26entry.749434141%26entry.490196994%26entry.64302806%26entry.1435381962%26entry.1669656715%3D%25E7%25B4%2585%26fbzx%3D8622164458681233
+            05&ifkv=AXH0vVsnTJ9bLrwWBouG8sTVpGUMuqS0xlHFpqQ-X_qoMLyIuIEWDRdLKNZAoAekFVrYW_Hhu-zuXA&ddm=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">登入 Google</a> 即可儲存進度。<a href="">瞭解詳情</a>
+            <hr>
+            <p class="MustWrite"> * 表示必填問題</p>
+        </div>
+        <div class="div_presonal">
+            <label>姓名<span class="red-star"> *</span><br><br>
+                <input type="text" placeholder="您的回答" name="" required/>
+            </label>
+        </div>
+        <div class="div_presonal">
+            <label>信箱<span class="red-star"> *</span><br><br>
+                <input type="email" placeholder="您的回答" required/>
+            </label>
+        </div>
+        <div class="div_presonal">
+            <label>生日<br><br>
+                <small class="date_1">日期</small><br><br>
+                <input type="date" name="" id="" min="2025-03-19"/>
+            </label>
+        </div>
+        <div class="div_form">
+            <span>想跟老師說悄悄話</span>
+            <textarea cols="65" rows="4"></textarea>
+        </div>
+        <div class="div_radio">喜歡的顏色<br><br>
+            <label>
+                <input type="radio" name="顏色"value="黃" id="" checked/>  黃
+            </label><br>
+            <label>
+                <input type="radio" name="顏色"value="綠" id="" />  綠
+            </label><br>
+            <label>
+                <input type="radio" name="顏色"value="紅" id="" />  紅
+            </label><br>
+        </div>
+        <div class="div_checkbox">
+            <fieldset>
+                   <legend>喜歡吃的飲食類型</legend><br>
+               <label>
+                   <input type="checkbox" name="飲食"value="中式" id="" />  中式
+               </label><br>
+               <label>
+                   <input type="checkbox" name="飲食"value="義式" id="" />  義式
+               </label><br>
+               <label>
+                   <input type="checkbox" name="飲食"value="日式" id="" />  日式
+               </label><br>
+               <label>
+                   <input type="checkbox" name="飲食"value="韓式" id="" />  韓式
+               </label><br>
+               <label>
+                <input type="checkbox" name="飲食"value="美式" id="" />  美式
+            </label><br>
+            <label>
+                <input type="checkbox" name="飲食"value="泰式" id="" />  泰式
+            </label><br>
+             </fieldset>
+       </div>
+       <div class="div_form">
+        <label for = "countary">最想去的國家</label> <br>
+        <select id="countary" name="countary">
+            <option value="" disabled>請選擇</option>
+            <optgroup label="亞洲" class="continents">
+                <option value="Japan">日本</option>
+                <option value="korea">韓國</option>
+                <option value="thailand">泰國</option>
+            </optgroup>
+            <optgroup label="歐洲"  class="continents">
+                <option value="germany">德國</option>
+                <option value="england">英國</option>
+            </optgroup>
+            <optgroup label="北美洲" class="continents">
+                <option value="canada">加拿大</option>
+                <option value="usa">美國</option>
+            </optgroup>
+        </select>
+       </div>
+        <div class="button_all">
+            <button type="submit" class="submit_bt">提交</button> 
+            <span style="margin-left: 430px;"></span>
+            <button type=”reset” class="reset_bt">清除表單</button>
+        </div>
+        
+        <div class="buttom_text">
+            <small class="NotToTrans">請勿利用 Google 表單送出密碼</small> <br>
+            <!-- <span style="margin-left: 200px;"></span> -->
+            <small>這份表單是在 五倍紅寶石程式資訊教育股份有限公司 中建立。
+            <br>Does this form look suspicious? <a href="" class="Report_a">報告</a></small>
+            <h1 class="google_form">Google表單</h1>
+        </div>
+    </form>
+</body>
+</html>
